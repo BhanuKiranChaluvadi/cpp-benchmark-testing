@@ -8,13 +8,6 @@ This assumes that you have installed google's benchmark package in the location,
 ---
 git clone --recursive https://github.com/BhanuKiranChaluvadi/cpp-benchmark-testing.git
 
-or 
-
-git clone https://github.com/BhanuKiranChaluvadi/cpp-benchmark-testing.git
-
-cd cpp-benchmark-testing
-
-git submodule update --init
-
+git clone https://github.com/google/googletest.git cpp-benchmark-testing/tpl/google-benchmark/googletest
 
 
